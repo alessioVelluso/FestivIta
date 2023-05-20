@@ -1,9 +1,11 @@
 
 # FestivIta
 
-## Metodi
 Piccola libreria creata con l'obiettivo di calcolare i giorni festivi o di weekend Italiani.
 Potete usarla con JS o TS, avete principalmente 4 metodi:
+
+
+## Metodi
 
 1. **`getPasqua( anno = undefined | number | string | Date )`**
 
