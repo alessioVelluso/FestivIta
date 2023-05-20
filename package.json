@@ -1,0 +1,23 @@
+{
+  "name": "festiv_ita",
+  "version": "1.0.0",
+  "description": "",
+  "main": "FestivIta.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon FestivIta.ts"
+  },
+  "exports": {
+    ".": {
+      "import": "./FestivIta.ts",
+      "require": "./FestivIta.js"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.2.1",
+    "nodemon": "^2.0.22"
+  }
+}
