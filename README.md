@@ -7,7 +7,7 @@ Potete usarla con JS o TS, avete principalmente 4 metodi:
 
 1. **`getPasqua( anno = undefined | number | string | Date )`**
 
-	>*Trova la data di pasqua dell'anno passato come parametro.*
+	>*Trova la data di pasqua dell'anno passato come parametro.*\
 	>**Se undefined troverà la data dell'anno corrente**
 
 
@@ -19,8 +19,8 @@ Potete usarla con JS o TS, avete principalmente 4 metodi:
 
 3. **`isExtraFestivo( data = undefined | string | Date )`**
 
-	>*Se il giorno della data passata è contenuto nell'array dei giorni festivi (se volete modificarla si trova nella classe FestivIta) ed è pasqua o pasquetta restituisce true;*
-	>**Se undefined allora calcola in base alla data odierna.**
+	>*Se il giorno della data passata è contenuto nell'array dei giorni festivi (se volete modificarla si trova nella classe FestivIta) ed è pasqua o pasquetta restituisce true;*\
+	>**Se undefined allora calcola in base alla data odierna.**\
 	>*Supporta principalmente tutti i formati di stringa derivati dalla classe Date() o in genere YYYY-MM-DD | YYYY/MM/DD, ma con il formato americano restituirà un giorno indietro.*
 
 
